@@ -17,15 +17,9 @@
 .busca input {
   background-color: #394975;
   padding: 15px;
-  width: 400px;
+  width: 700px;
   border: none;
   border-radius: 10px;
-}
-
-.busca input[type="text"]::placeholder {
-  /* Estilos para o campo de busca */
-  color: #fff;
- 
 }
 
 
@@ -33,14 +27,10 @@
 .perfil img{
 max-width: 30%;
 height: auto;
-margin-left:400px ;
+margin-left:300px ;
 }
 
 
-body{
-  background-color: #051D3B;
-  font-family: inter;
-}
 
     
 

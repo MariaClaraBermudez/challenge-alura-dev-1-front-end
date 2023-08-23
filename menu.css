@@ -1,0 +1,24 @@
+.container .menu{
+    display: flex;
+    flex-direction: column;
+    /* Outras propriedades opcionais para alinhamento */
+    align-items: flex-start; /* Alinha os itens à esquerda */
+    justify-content: center; /* Centraliza verticalmente os itens */
+  }
+  a{
+    color: #fff;
+    text-decoration: none;
+    
+  }
+
+  .menu p {
+    margin-left: 10px;
+  }
+
+  .menu i { /*ajuste do icone */
+    background-color:#5081FB ;
+    padding: 10px;
+    margin-top: 15px;
+    margin-right: 10px;
+    border-radius: 10px;
+}

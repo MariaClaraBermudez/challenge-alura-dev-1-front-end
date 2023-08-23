@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="menu.css">
+    <head>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </head>
+  
     <title>Alura DEV</title>
 </head>
 <body>
@@ -14,7 +20,7 @@
         </div>
        
         <div class="busca">
-          <input type="text" placeholder="Busque por algo">
+          <input type="search" placeholder="Busque por algo">
         </div>
 
         <div class="perfil">
@@ -23,7 +29,33 @@
         </div>
     
       </header>
-   
+
+      <article>
+
+        <div class="container"><!--PAI-->
+         
+          <nav class="menu"> <!--FILHOS-->
+            <p>MENU</p>
+           <a class="menu-itens" href="index.html">
+            <i class="fas fa-code"></i> Editor de código </a> 
+           <a class="menu-itens" href="#">
+            <i class="fas fa-users"></i> Comunidade </a> 
+        </nav>
+      </div>
+      
+    <nav class="projeto">
+      <p>SEU PROJETO</p>
+      <div class="projeto-nome">
+        <input type="text" placeholder="Nome do projeto">
+      </div>
+
+      <div class="projeto-descricao">
+        <input type="text" placeholder="Descrição do seu projeto">
+      </div>
+
+    </nav>
+
+   </article>
 
 
 </body>

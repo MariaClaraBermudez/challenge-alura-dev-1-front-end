@@ -1,0 +1,39 @@
+
+body{
+    background-color: #051D3B;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    
+  }
+
+  .projeto {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 15px;
+     margin: -170px 0px 50px 1300px;
+  }
+
+  .projeto-nome input{
+    background-color: #394975;
+    padding: 15px;
+    width: 170px;
+    border: none;
+    border-radius: 6px;
+  }
+
+.projeto-descricao{ /*nao funcionou para aumentar ele para baixo ARRUMAR*/
+  padding-top:15px;
+}
+
+  .projeto-descricao input{
+    background-color: #394975;
+    padding: 15px;
+    margin-top: 12px ;
+    width: 170px;
+    border: none;
+    border-radius: 6px;
+  }
+
+  
+  
+  
