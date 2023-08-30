@@ -13,11 +13,16 @@
   height: auto;
 }
 
+.busca {
+  padding: 15px;
+  padding-right: 250px;
+}
 
 .busca input {
   background-color: #394975;
+  color: #fff;
   padding: 15px;
-  width: 700px;
+ width: 700px;
   border: none;
   border-radius: 10px;
 }
@@ -25,10 +30,11 @@
 
 
 .perfil img{
-max-width: 30%;
+max-width: 45%;
 height: auto;
-margin-left:300px ;
+
 }
+
 
 
 

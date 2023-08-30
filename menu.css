@@ -4,6 +4,7 @@
     /* Outras propriedades opcionais para alinhamento */
     align-items: flex-start; /* Alinha os itens à esquerda */
     justify-content: center; /* Centraliza verticalmente os itens */
+    
   }
   a{
     color: #fff;
