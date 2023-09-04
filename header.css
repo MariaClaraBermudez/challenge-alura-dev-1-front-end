@@ -15,7 +15,7 @@
 
 .busca {
   padding: 15px;
-  padding-right: 250px;
+  padding-right: 225px;
 }
 
 .busca input {
@@ -31,6 +31,7 @@
 
 .perfil img{
 max-width: 45%;
+margin-left: 125px;
 height: auto;
 
 }

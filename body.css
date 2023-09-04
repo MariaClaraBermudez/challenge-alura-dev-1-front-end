@@ -3,13 +3,14 @@ body{
     background-color: #051D3B;
     font-family: 'Inter', sans-serif;
      color: #fff;
+     margin: 10px 20px;
   }
 
   .projeto {
     display: inline-block;
     vertical-align: middle;
     padding: 15px;
-     margin: -170px 0px 50px 1300px;
+     margin: -170px 0px 50px 1270px;
   }
 
   .projeto-nome input{
@@ -33,7 +34,44 @@ body{
     border-radius: 6px;
   }
 
+  .personalizacao {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 15px;
+     margin: -51px 2px 50px 1270px;
+  }
 
+  .personalizacao-opcoes{
+    background-color: #394975;
+    color: #fff;
+    padding: 15px;
+    margin-top: 12px;
+    width: 200px;
+    border: none;
+    border-radius: 6px;
+  }
+
+  #personalizacao-corfundo {
+    background-color:#6BD1FF;
+    color: #fff;
+    padding: 15px;
+    margin-top: 12px;
+    width: 200px;
+    border: none;
+    border-radius: 6px;
+  }
 
   
-  
+/*
+background: #9AFF6B; verde
+background: #6BD1FF; azul marinho
+background: #6BD1FF; azul claro
+background: #FFC46B; amarelo por do sol
+background: #6B83FF; roxo
+background: #FF6BCD; rosa
+
+
+
+
+
+
