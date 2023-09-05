@@ -1,16 +1,11 @@
 
-  // Obtém referências para o select e o elemento a ser personalizado
-  const selectCorFundo = document.getElementById('personalizacao-corfundo');
-  const elementoPersonalizado = document.getElementById('personalizacao');
+// Adicione um evento onchange ao seletor personalizado para atualizar a cor de fundo
+const selectCorFundo = document.querySelector('.color-picker');
 
-  // Adiciona um ouvinte de evento para o evento 'change' no select
-  selectCorFundo.addEventListener('change', function () {
-    // Obtém o valor selecionado (cor de fundo) do select
-    const corFundoSelecionada = selectCorFundo.options[selectCorFundo.selectedIndex].value;
+selectCorFundo.addEventListener("change", function () {
+    const corSelecionada = selectCorFundo.value;
+    selectCorFundo.style.backgroundColor = corSelecionada;
+});
 
-    // Aplica a cor de fundo selecionada ao elemento a ser personalizado
-    elementoPersonalizado.style.backgroundColor = corFundoSelecionada;
-  });
-
-
-
+//adiciona um ouvinte de evento CHANGE ao seletor personalizado.
+//Quando o evento CHANGE é acionado, a cor selecionada é obtida usando "selectCorFundo.value", e a cor de fundo do próprio seletor personalizado é atualizada com a cor selecionada usando "selectCorFundo.style.backgroundColor". Isso cria o efeito de mudança de cor na própria caixa de seleção quando uma cor é selecionada.

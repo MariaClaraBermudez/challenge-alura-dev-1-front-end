@@ -10,14 +10,14 @@ body{
     display: inline-block;
     vertical-align: middle;
     padding: 15px;
-     margin: -170px 0px 50px 1270px;
+     margin: -170px 15px 50px 1187px;
   }
 
   .projeto-nome input{
     background-color: #394975;
     color: #fff;
-    padding: 15px;
-    width: 170px;
+    padding: 20px 15px 20px 15px;
+    width: 225px;
     border: none;
     border-radius: 6px;
   }
@@ -27,9 +27,9 @@ body{
   .projeto-descricao textarea{
     background-color: #394975;
     color: #fff;
-    padding: 15px;
+    padding: 20px 15px 20px 15px;
     margin-top: 12px;
-    width: 170px;
+    width: 225px;
     border: none;
     border-radius: 6px;
   }
@@ -37,26 +37,54 @@ body{
   .personalizacao {
     display: inline-block;
     vertical-align: middle;
-    padding: 15px;
-     margin: -51px 2px 50px 1270px;
+    padding:15px;
+     margin: -51px 10px 50px 1187px;
+  
   }
 
   .personalizacao-opcoes{
     background-color: #394975;
     color: #fff;
-    padding: 15px;
+    padding: 20px 15px 20px 15px;
     margin-top: 12px;
-    width: 200px;
+    width: 250px;
     border: none;
     border-radius: 6px;
   }
 
-  #personalizacao-corfundo {
-    background-color:#6BD1FF;
-    color: #fff;
-    padding: 15px;
+  select#personalizacao-corfundo {
+    background-color: #6BD1FF;
+    padding: 20px 15px 20px 15px;
     margin-top: 12px;
-    width: 200px;
+    width: 250px;
+    border: none;
+    border-radius: 6px;
+  }
+
+  
+  /* Estilize as opções individualmente */
+  select#personalizacao-corfundo option[value="#9AFF6B"] {
+    background-color: #9AFF6B; /* Verde */
+  }
+  select#personalizacao-corfundo option[value="#6BD1FF"] {
+    background-color: #6BD1FF; /* Azul */
+  }
+  select#personalizacao-corfundo option[value="#FFC46B"] {
+    background-color: #FFC46B; /* Laranja */
+  }
+  select#personalizacao-corfundo option[value="#6B83FF"] {
+    background-color: #6B83FF; /* Azul Escuro */
+  }
+  select#personalizacao-corfundo option[value="#FF6BCD"] {
+    background-color: #FF6BCD; /* Rosa */
+  }
+
+  button {
+    background-color:#5081FB;
+    color: #fff;
+    padding: 20px 15px 20px 15px;
+    margin-top: 23px;
+    width: 250px;
     border: none;
     border-radius: 6px;
   }
