@@ -24,7 +24,7 @@ body{
 
 
 
-  .projeto-descricao textarea{
+  .projeto-descricao textarea[name="descricao"]{
     background-color: #394975;
     color: #fff;
     padding: 20px 15px 20px 15px;
@@ -88,6 +88,31 @@ body{
     border: none;
     border-radius: 6px;
   }
+
+/* Estilo de fundo e texto o !important serve para colocar como prioridade*/
+.CodeMirror { 
+  width: 880px;
+  padding: 0px;
+  margin: -577px 150px 50px 225px;
+  background-color: black !important;
+  color: white !important;
+  
+}
+
+/* Estilo de números de linha */
+.CodeMirror-linenumber {
+  color: gray !important;
+}
+
+/* Estilo da borda da área de edição */
+.CodeMirror-lines {
+  border: 1px solid #333 !important;
+}
+
+.cod {
+ 
+  
+}
 
   
 /*
