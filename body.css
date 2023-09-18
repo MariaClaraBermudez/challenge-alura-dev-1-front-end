@@ -79,7 +79,7 @@ body{
     background-color: #FF6BCD; /* Rosa */
   }
 
-  button {
+ .salvar{
     background-color:#5081FB;
     color: #fff;
     padding: 20px 15px 20px 15px;
@@ -89,21 +89,28 @@ body{
     border-radius: 6px;
   }
 
-.compartilha-cod {
-  
- 
-}
+
 
 
 .compartilha-cod textarea[name="cod"]{
-  margin: -525px 10px 70px 290px;
+  display: flex;
+  margin: -578px 10px 70px 290px;
     background-color: black;
     color: #fff;
     border-width:40px ; 
+    border-radius: 15px;
     border-color: #6BD1FF;
 }
 
-
+.highlight {
+  background-color:#394975;
+  color: #fff;
+  padding: 20px 15px 20px 15px;
+  margin-left:318px;
+  width: 745px;
+  border: none;
+  border-radius: 6px;
+}
 
   
 /*
